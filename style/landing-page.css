@@ -4,22 +4,30 @@
 @import "header.css";
 @import "footer.css";
 
-.landing-page {
-    padding-top: 60px;
+@import "section-1.css";
+
+.landing-page-content {
+    display: flex;
+    position: relative;
     flex: 1 1 auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
 }
 @media (max-width: 1200px) {
-    .landing-page {
+    .landing-page-content {
 
     }
 }
 @media (max-width: 992px) {
-    .landing-page {
+    .landing-page-content {
 
     }
 }
 @media (max-width: 768px) {
-    .landing-page {
+    .landing-page-content {
 
     }
 }
